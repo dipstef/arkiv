@@ -1,8 +1,6 @@
 from setuptools import setup
 
-settings = {}
-
-settings.update(
+setup(
     name='arkiv',
     version='0.1',
     description='Archive file names',
@@ -12,5 +10,3 @@ settings.update(
     test_suite='tests',
     requires=['urlo', 'unicoder']
 )
-
-setup(**settings)
